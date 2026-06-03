@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+/* navbarstart */
+html {
+    background: white;
+}
+.hamburger {
+    display: flex;
+    flex-direction:start;
+}
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+.nav-container {
+    width: 100%;
+    height: 70px;
+    background: white;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    z-index: 1;
+    position:fixed;
+
+}
+
+.nav-container .logo {
+  
+    
+    width: 200px;
+}
+
+
+
+
+
+.nav-bar ul {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.nav-bar ul li a {
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    color: black;
+    font-size: 21px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transition: .5s;
+    margin: 0 10px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover{
+    color: white;
+    background: linear-gradient(to bottom right, #dfbc92, black);
+    font-weight: bolder;
+    
+}
+/* navbarstart */
+
+/* mainheaderstart */
+.content{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+    background: url(campaign-main-banner-pc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content-bax{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.content-bax h2{
+
+  color:  white;  
+  text-shadow: 4px 4px black;
+  font-family: fantasy;
+  font-size: 90px;
+}
+
+.content-bax label{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 300px;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+button{
+    
+   
+    height: 40px;
+    width: 90px;
+    border: white;
+    background: white;
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+box-shadow: 0 0 10px white,
+0 0  10px white;    
+
+}
+/* mainheaderend */
+
+/* footerstart */
+.site-footer
+{
+  background: white;
+background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 2px 2px 2px 2px gray;
+  padding:25px 10px;
+  font-size:18px;
+  line-height:30px;
+  color:black;
+  font-family: monospace;
+  font-weight: bold;
+}
+.site-footer hr
+{
+  border-top-color:black;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  
+  margin:px 0
+  
+}
+.site-footer h6
+{
+    font-family: fantasy;
+    /* font-weight: bold; */
+    text-shadow: 1px 1px 1px gray;
+    padding-bottom: 15px;
+  color: black;
+  font-size: 18px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+  
+  
+}
+.site-footer a
+{
+  font-weight: bold;
+  color:black;
+}
+.site-footer a:hover
+{
+  color: white;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color: black;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color: white;
+    background: linear-gradient(to bottom right, #dfbc92, black);
+    font-weight: bolder;
+    width: auto;
+    
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+/* footerend */
+
+.row121{
+  padding-left: 5%;
+  padding-right: 5%;
+display: flex;
+justify-content: space-around;
+/* background:gray; */
+
+}
+
+.container125{
+  background: rgba(128, 128, 128, 0.082);
+}
+
+.card-body{
+  border: 2px solid black;
+}
+
